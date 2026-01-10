@@ -79,8 +79,9 @@ YuvaNet-A-Made-in-India-Social-Media-Platform/
 └── 📂 media/                    ← Uploaded images/posts (may be created on run)
 ```
 
+### GUI Appearance
 
-### Pages
+## Pages
 ```
 - Login Page
 - Signup Page
@@ -95,7 +96,7 @@ YuvaNet-A-Made-in-India-Social-Media-Platform/
 - Search Results Page
 - Post Comment Page
 ```
-### Features
+## Features
 ```
 - Follow/Unfollow Users
 - Like/Unlike the posts
@@ -221,6 +222,7 @@ Database: `Sqlite3`
 
 
 ### Technical Details
+
 
 
 
