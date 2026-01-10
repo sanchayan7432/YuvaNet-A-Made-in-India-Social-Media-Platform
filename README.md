@@ -1,9 +1,9 @@
 # YuvaNet - A Made-In-India Social Media Platform
 
-```
+
 <p align="center"> <img src="https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/socials/static/images/truffle.png" height=200 /> </p>
 <br>
-```
+
 
 
 <p align="center">
@@ -15,7 +15,7 @@
 </p>
 
 ### Pages
-
+```
 - Login Page
 - Signup Page
 - Create Profile Page
@@ -28,16 +28,16 @@
 - User Profile Page
 - Search Results Page
 - Post Comment Page
-
+```
 ### Features
-
+```
 - Follow/Unfollow Users
 - Like/Unlike the posts
 - Download the post images
 - Comment on user posts
 - User suggestion section
 - Search users through the search bar
-
+```
 ### Tools and Techs
 
 Backend Framework: `Django`
@@ -147,6 +147,7 @@ Database: `Sqlite3`
 **7. Create a user profile page**
 
 ![Create user profile](https://user-images.githubusercontent.com/84091455/208101772-e022f7ee-5c8f-4799-b0be-b5d43effd1d9.png)
+
 
 
 
