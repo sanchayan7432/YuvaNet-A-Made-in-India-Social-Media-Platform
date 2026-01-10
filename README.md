@@ -4,12 +4,7 @@
 <p align="center"> <img src="https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/socials/static/images/truffle.png" height=200 /> </p>
 <br>
 
-<p align="center">
-<a href="https://codeclimate.com/github/pkini2002/Social-media-web-app/maintainability">
-<img src="https://api.codeclimate.com/v1/badges/b79b9943a5cb4340c05f/maintainability" /></a>
-<a href="https://codeclimate.com/github/pkini2002/Social-media-web-app/test_coverage">
-<img src="https://api.codeclimate.com/v1/badges/b79b9943a5cb4340c05f/test_coverage" /></a>
-</p>
+
 
 <p align="center">
 <a href="https://www.python.org/"><img src="https://forthebadge.com/images/badges/made-with-python.svg" border="0" title="Made with Python" />
@@ -152,5 +147,6 @@ Database: `Sqlite3`
 **7. Create a user profile page**
 
 ![Create user profile](https://user-images.githubusercontent.com/84091455/208101772-e022f7ee-5c8f-4799-b0be-b5d43effd1d9.png)
+
 
 
