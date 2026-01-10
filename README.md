@@ -14,6 +14,54 @@
 <a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0" alt="Powered by Django." title="Powered by Django." /></a>
 </p>
 
+
+### YuvaNet Project Structure
+```
+YuvaNet-A-Made-in-India-Social-Media-Platform/
+│
+├── 📄 README.md
+├── 📄 LICENSE
+├── 📄 requirements.txt            ← Dependencies (Django, etc.)
+│
+├── 📂 socials/                   ← Main Django app
+│   ├── 📄 __init__.py
+│   ├── 📄 admin.py
+│   ├── 📄 apps.py
+│   ├── 📄 models.py              ← Database models (User Profile, Post, Comment, etc.)
+│   ├── 📄 views.py               ← Views that handle request logic
+│   ├── 📄 urls.py                ← URL routing for the app
+│   ├── 📄 forms.py               ← Django forms (e.g., signup, post creation)
+│   │
+│   ├── 📂 migrations/            ← Database migrations
+│   │   └── ...
+│   │
+│   ├── 📂 templates/             ← HTML templates
+│   │   ├── base.html
+│   │   ├── signup.html
+│   │   ├── login.html
+│   │   ├── profile.html
+│   │   ├── post_list.html
+│   │   ├── post_detail.html
+│   │   └── ...                   ← Templates for all pages like home, edit profile
+│   │
+│   └── 📂 static/                ← Static resources
+│       ├── css/
+│       ├── js/
+│       └── images/
+│
+├── 📂 YuvaNet/                  ← Django project config
+│   ├── 📄 __init__.py
+│   ├── 📄 settings.py           ← Project settings (INSTALLED_APPS, DB, etc.)
+│   ├── 📄 urls.py               ← Root URL config
+│   └── 📄 wsgi.py
+│
+├── 📄 db.sqlite3                ← Database storage file generated after migrations
+├── 📄 manage.py                 ← Django management script
+│
+└── 📂 media/                    ← Uploaded images/posts (may be created on run)
+```
+
+
 ### Pages
 ```
 - Login Page
@@ -147,6 +195,7 @@ Database: `Sqlite3`
 **7. Create a user profile page**
 
 ![Create user profile](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/8.png)
+
 
 
 
