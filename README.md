@@ -223,6 +223,37 @@ Database: `Sqlite3`
 
 ## Technical Details
 
+### Architecture:
+YuvaNet is a Django-based MVC (Model-View-Controller) web application. The project is structured into a main Django project (YuvaNet/) and a core app (socials/) that handles all social media functionalities such as posts, comments, likes, and user profiles. The system follows Django’s MVT (Model-View-Template) architecture:
+
+- Models (models.py): Define database schema for UserProfile, Post, Comment, Like, and Follow relationships. Uses SQLite as the database backend.
+
+- Views (views.py): Contain business logic and handle HTTP requests/responses. Functions query models, process data, and render templates.
+
+- Templates (templates/): HTML files with Django template tags to dynamically render content.
+
+- Static Files (static/): Includes CSS, JavaScript, and images to manage frontend presentation.
+
+### Data Structures:
+
+- Relational Data Models: Posts, comments, likes, and user profiles are stored in relational tables with foreign key relationships to associate users with their content and interactions.
+
+- QuerySets: Django ORM QuerySets efficiently handle filtering and retrieving post-specific comments, likes, and followers.
+
+- Forms: Django forms are used for input validation and safe data submission.
+
+### Algorithms & Logic:
+
+- Post Feed Generation: Retrieves posts in reverse chronological order with related likes and comments using Django ORM queries.
+
+- Comment & Interaction Handling: Ensures comments are post-specific, likes are unique per user per post, and follow relationships are maintained through relational mappings.
+
+- Search: Implements basic user and post search using icontains queries on username and post content.
+
+- Security: Leverages Django’s built-in authentication, CSRF protection, and form validation to prevent unauthorized access and attacks.
+
+Overall, YuvaNet demonstrates a scalable, modular social media platform architecture with a clear separation of concerns between data, logic, and presentation, leveraging Django’s ORM and template system for clean, maintainable code.
+
 
 
 
