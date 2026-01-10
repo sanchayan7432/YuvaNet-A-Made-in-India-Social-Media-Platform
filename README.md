@@ -49,13 +49,13 @@ Database: `Sqlite3`
 
 ### Installation
 
-1. - Fork the [repo](https://github.com/pkini2002/Social-media-web-app)
+1. - Fork the [repo](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform.git)
    - Clone the repo to your local system
    ```git
-   git clone https://github.com/pkini2002/Social-media-web-app.git
-   cd Social-media-web-app
+   git clone [https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform.git
+   cd <path>\YuvaNet
    ```
-   Make sure you have python installed on your system.
+   Make sure you have latest version of python installed on your system.
 2. Create a Virtual Environment for the Project
 
    If u don't have a virtualenv installed
@@ -65,15 +65,15 @@ Database: `Sqlite3`
    ```
    **For Windows Users**
    ```bash
-   virtualenv env
-   env/Scripts/activate
+   virtualenv env_name
+   env_name/Scripts/activate
    ```
 
 
    **For Linux Users**
    ```bash
-   virtualenv env
-   source env/Scripts/activate
+   virtualenv env_name
+   source env_name/Scripts/activate
    ```
 
    If you are giving a different name than `env`, mention it in `.gitignore` first
@@ -147,6 +147,7 @@ Database: `Sqlite3`
 **7. Create a user profile page**
 
 ![Create user profile](https://user-images.githubusercontent.com/84091455/208101772-e022f7ee-5c8f-4799-b0be-b5d43effd1d9.png)
+
 
 
 
