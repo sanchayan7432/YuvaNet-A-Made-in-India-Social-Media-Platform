@@ -1,4 +1,4 @@
-# YuvaNet - A Gamechanger Made-In-India Social Media Platform
+# YuvaNet - A Made-In-India Social Media Platform
 
 
 <p align="center"> <img src="https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/socials/static/images/truffle.png" height=200 /> </p>
@@ -253,6 +253,7 @@ YuvaNet is a Django-based MVC (Model-View-Controller) web application. The proje
 - Security: Leverages Django’s built-in authentication, CSRF protection, and form validation to prevent unauthorized access and attacks.
 
 Overall, YuvaNet demonstrates a scalable, modular social media platform architecture with a clear separation of concerns between data, logic, and presentation, leveraging Django’s ORM and template system for clean, maintainable code.
+
 
 
 
