@@ -15,7 +15,7 @@
 </p>
 
 
-### Project Overview
+## Project Overview
 ```
 YuvaNet is a Django based social media website where users can utilize the features exactly as on other straightforward social media websites. The goal of the project was to demonstrate how the most popular web development languages might be utilized to create a straightforward social media website.
 As mentioned above, this application system has five vital components/features: 
@@ -33,7 +33,7 @@ User registration/authentication, User posts, Search users, Like and Comment on 
 ``` 
 
 
-### Code Structure
+## Code Structure
 ```
 YuvaNet-A-Made-in-India-Social-Media-Platform/
 │
@@ -105,7 +105,7 @@ YuvaNet-A-Made-in-India-Social-Media-Platform/
 - User suggestion section
 - Search users through the search bar
 ```
-### Tools and Techs
+## Tools and Techs
 
 Backend Framework: `Django`
 <br/><br/>
@@ -114,7 +114,7 @@ Front-end : `Bootstrap, SCSS, HTML,CSS, Javascript`
 Database: `Sqlite3`
 <br/><br/>
 
-### Setup Instructions
+## Setup Instructions
 
 1. - Fork the [repo](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform.git)
    - Clone the repo to your local system
@@ -178,7 +178,7 @@ Database: `Sqlite3`
    python manage.py runserver
    
   
- ### Visual Documentation
+ ## Visual Documentation
 
 **1. Signup Page**
 
@@ -221,7 +221,8 @@ Database: `Sqlite3`
 
 
 
-### Technical Details
+## Technical Details
+
 
 
 
