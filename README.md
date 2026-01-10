@@ -1,7 +1,7 @@
 # Social-media-web-app
 
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/84091455/208230388-5ca38084-1973-49fd-883a-bbdb4f51d3a6.png" height=200 /> </p>
+<p align="center"> <img src="[https://user-images.githubusercontent.com/84091455/208230388-5ca38084-1973-49fd-883a-bbdb4f51d3a6.png](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/socials/static/images/truffle.png)" height=200 /> </p>
 <br>
 
 <p align="center">
@@ -152,3 +152,4 @@ Database: `Sqlite3`
 **7. Create a user profile page**
 
 ![Create user profile](https://user-images.githubusercontent.com/84091455/208101772-e022f7ee-5c8f-4799-b0be-b5d43effd1d9.png)
+
