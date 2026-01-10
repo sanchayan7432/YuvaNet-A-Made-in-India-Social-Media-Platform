@@ -115,38 +115,39 @@ Database: `Sqlite3`
 
 **1. Signup Page**
 
-![Signup page](https://user-images.githubusercontent.com/84091455/208101528-a448872c-6e8c-4f9e-b287-1c64a58d0c6f.png)
+![Signup page](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/1.png)
 
 **2. Login Page**
 
-![Login page](https://user-images.githubusercontent.com/84091455/208101465-29c16377-81a7-47c5-a051-c5ca103994a2.png)
+![Login page](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/2.png)
 
 **3. Home/Feed Page**
 
-![Home Page](https://user-images.githubusercontent.com/84091455/208101566-beb72751-bfe6-4d4e-939a-09352b517206.png)
+![Home Page](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/3.png)
 
 **4. Comment Display**
 
-![Comment Display](https://user-images.githubusercontent.com/84091455/208101614-3500b844-f657-494f-b998-9bde17824aeb.png)
+![Comment Display](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/4.png)
 
 **5. Profile Pages**
 
 **User Profile**
 
-![Show Profile](https://user-images.githubusercontent.com/84091455/208101687-2ed8cc97-7e6b-4f65-b7cc-d0aaae732d14.png)
+![Show Profile](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/5.png)
 
 **Other's Profile**
 
-![127 0 0 1_8000_4_profile_(Nest Hub)](https://user-images.githubusercontent.com/84091455/208229214-687fcdea-72a0-4f86-afc4-1253629006e8.png)
+![127 0 0 1_8000_4_profile_(Nest Hub)](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/6.png)
 
 
 **6. Search Result Users Page**
 
-![Search Result](https://user-images.githubusercontent.com/84091455/208101657-497a2549-c882-4a50-93eb-fcd261201a13.png)
+![Search Result](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/7.png)
 
 **7. Create a user profile page**
 
-![Create user profile](https://user-images.githubusercontent.com/84091455/208101772-e022f7ee-5c8f-4799-b0be-b5d43effd1d9.png)
+![Create user profile](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/8.png)
+
 
 
 
