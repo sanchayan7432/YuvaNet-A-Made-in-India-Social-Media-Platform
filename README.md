@@ -15,7 +15,7 @@
 </p>
 
 
-### YuvaNet Project Structure
+### Code Structure
 ```
 YuvaNet-A-Made-in-India-Social-Media-Platform/
 │
@@ -195,6 +195,7 @@ Database: `Sqlite3`
 **7. Create a user profile page**
 
 ![Create user profile](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform/blob/main/ScreenShots/8.png)
+
 
 
 
