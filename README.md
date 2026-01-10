@@ -15,6 +15,24 @@
 </p>
 
 
+### Project Overview
+```
+YuvaNet is a Django based social media website where users can utilize the features exactly as on other straightforward social media websites. The goal of the project was to demonstrate how the most popular web development languages might be utilized to create a straightforward social media website.
+As mentioned above, this application system has five vital components/features: 
+User registration/authentication, User posts, Search users, Like and Comment on user posts and Follow/Unfollow users. 
+
+• User registration/Authentication: Any  application will include this primary feature to register users in their application. To access all the other features, the user must register into the application. We collect users fundamental data such as email, username, first name, last name, password, and store it in the database. Moreover the users can change their password for security purposes.
+ 
+• Profile modification: This is an extended feature of user registration. Here, users can create and modify their profiles. Users can change their profile picture, email address, and their usernames. The altered data reflects in the database system and the front-end of the application.
+
+• User posts: Once the user has registered and set up a profile, they can post photos and modify them accordingly. Users can like and comment and download the  posts.
+
+• Follow/Unfollow users: The logged in user can follow/unfollow users from the user suggestion section.
+
+• Search users: Users can search other users by entering the username in the search bar provided in the home page. A list of all users matching the username typed will appear as a search result.
+``` 
+
+
 ### Code Structure
 ```
 YuvaNet-A-Made-in-India-Social-Media-Platform/
@@ -95,7 +113,7 @@ Front-end : `Bootstrap, SCSS, HTML,CSS, Javascript`
 Database: `Sqlite3`
 <br/><br/>
 
-### Installation
+### Setup Instructions
 
 1. - Fork the [repo](https://github.com/sanchayan7432/YuvaNet-A-Made-in-India-Social-Media-Platform.git)
    - Clone the repo to your local system
@@ -159,7 +177,7 @@ Database: `Sqlite3`
    python manage.py runserver
    
   
- ### Snapshots
+ ### Visual Documentation
 
 **1. Signup Page**
 
@@ -201,6 +219,8 @@ Database: `Sqlite3`
 
 
 
+
+### Technical Details
 
 
 
