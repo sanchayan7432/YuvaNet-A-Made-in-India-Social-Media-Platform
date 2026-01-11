@@ -4,19 +4,22 @@ Django settings for socials project.
 
 from pathlib import Path
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env if exists (optional for local dev)
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-^bk)o+h%-=9149%=!gxc=-y@9)nnn^-um*x@cvz%o0d4-&_a*6"
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "django-insecure-dev-key")  # Use env var in production
 
 # Set False in production
-DEBUG = False
+DEBUG = os.getenv("DJANGO_DEBUG", "False") == "True"
 
-# Allow Render and local
-ALLOWED_HOSTS = ["*", "localhost", "127.0.0.1"]
+# Allow Render and local hosts
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "*").split(",")
 
 
 # Application definition
@@ -91,28 +94,31 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = "/static/"
-
-STATICFILES_DIRS = [
-    BASE_DIR / "static"
-]
-
-# This is REQUIRED for Render
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR / "staticfiles"  # Collect static here for Render
 
 
-# Media files
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+# Media files (user uploads)
 MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
 
 
-# Email
+# Email configuration (Gmail SMTP)
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = "gpkini2002@gmail.com"
-EMAIL_HOST_PASSWORD = ""   # set via Render Environment Variable
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER", "")       # Set via Render env
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD", "")  # Set via Render env
 EMAIL_USE_TLS = True
 PASSWORD_RESET_TIMEOUT = 900  # 15 minutes
+
+
+# Security settings for production
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
+X_FRAME_OPTIONS = "DENY"
 
 
 # Default primary key field type
